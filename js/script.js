@@ -1,6 +1,17 @@
 alert("Consulta tu prestamo ahora");
 
 // Datos del solicitante
+function validarDatos (){
+    let ingreseSuNombre = prompt("Ingrese su Nombre y apellido");
+    if (ingreseSuNombre === ""){
+        alert("Por favor Ingrese su Nombre y Apellido");
+        validarDatos ();
+    }else {
+        alert("Tenes aprobado $1000")
+    }
+}
+validarDatos ();
+/*
 let ingreseSuNombre = prompt("Ingrese su Nombre ");
 let ingreseSuApellido = prompt("Ingrese su Apellido");
 const VACIO = "";
@@ -9,13 +20,14 @@ if(ingreseSuNombre != VACIO && ingreseSuApellido != VACIO) {
     alert(" bienvenido " + ingreseSuNombre + " " + ingreseSuApellido)
 } else {
     alert("Falta ingresar Informacio!")
-    
-}
+    let ingreseSuNombre = prompt("Ingrese su Nombre ");
+    let ingreseSuApellido = prompt("Ingrese su Apellido");
+}*/
 
 //Edad del solicitante
 let edadIngresada = prompt("Ingrese su Edad: ");
 if(edadIngresada >= 18){
-    
+    alert("Tenes aprobado $1000")
 } else if (edadIngresada > 0 && edadIngresada < 18){
     alert("El solicitande debe ser mayor de 18 años de edad")
 } else if(edadIngresada <= 0){
