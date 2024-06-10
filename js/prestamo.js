@@ -7,7 +7,7 @@ function validarDatos (){
         alert("Por favor Ingrese su Nombre y Apellido");
         validarDatos ();
     }else {
-        alert("Tenes aprobado $1000")
+        
     }
 }
 validarDatos ();
@@ -25,7 +25,7 @@ if(edadIngresada >= 18){
 }
 
 //Opciones de cuotas
-let cantidadCuotas = prompt("Elija cantidad de cuotas : 3 Cuotas (10%) \n 6 cuotas (30%) \n 9 Cuotas (50%) \n 12 Cuotas (100%)");
+let cantidadCuotas = prompt("Elija cantidad de cuotas : \n 3 Cuotas (10%) \n 6 cuotas (30%) \n 9 Cuotas (50%) \n 12 Cuotas (100%)");
 let montoPrestamo = 1000;
 let total;
 
@@ -43,7 +43,10 @@ if (cantidadCuotas == 3){
     alert("la cuotas es " + total)
 }else{
     alert("Opcion Incorrecta!")
-}
+    }
+    console.log( Math.floor(+ total));
+
+
 const cuerpo = document.body;
 const cabecera = document.getElementById('header');
 const navegacion = document.createElement('div');
@@ -64,3 +67,7 @@ for ( const link of links){
     li.innerHTML = `<a href="${link.toLowerCase()}.html" >${link}</a>`
     ul.appendChild(li);
 }
+
+const HOY = new Date();
+console.log(HOY.getDay());
+console.log(HOY.toLocaleString());
