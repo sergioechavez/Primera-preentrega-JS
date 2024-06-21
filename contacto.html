@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primera Preentrega</title>
+    <link rel="icon" href="img/ico.png" type="">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Compras y Prestamos</title>
 </head>
-<h1>Pagina de Contacto</h1>
-<body id="body">
+
+    <body id="body">
     <header id="header"></header>
-    <!--<input type="text" name="" id="nombre">
-    <input type="number" name="" id="edad">-->
-    <script src="/js/contacto.js"></script>
+    
+    <button id="toggle-button">Cambiar a modo oscuro</button>
+    <main id="mainContact" class="mainContact">
+        <h1>Contacto</h1>
+        <form id="formulario">
+            <label for="">Ingrese su nombre y apellido</label>
+            <input type="text" id="nombreForm" required>
+            <label for="telefono">Ingrese su tefelono: </label>
+            <input type="tel" name="telefonoForm" id="telefono" required>
+            <label for="horario">Ingrese un horario para ser contactado </label>
+            <select id="horario" name="horarioForm" required>
+                <option value="">Seleccione un horario</option>
+                <option value="09:00 hs a 12:00 hs">09:00 hs - 12:00 hs</option>
+                <option value="12:00 hs a 14:00 hs">12:00 hs - 14:00 hs</option>
+                <option value="14:00 hs a 16:00 hs">14:00 hs - 16:00 hs</option>
+                <option value="16:00 hs a 20:00 hs">16:00 hs - 20:00 hs</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer></footer>
+    
+    <script src="js/navegacion.js"></script>
+    <script src="js/contacto.js"></script>
     
 </body>
+
 </html>
