@@ -6,7 +6,7 @@ const products = [
         {
             id: 1,
             name: 'tulum',
-            price: 505360
+            price: 505360,
         },
         {
             id: 2,

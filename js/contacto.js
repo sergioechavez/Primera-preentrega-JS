@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 let miFormulario = document.getElementById("formulario");
-
 const mainContact = document.getElementById('mainContact');
 const divContact = document.createElement('div');
 const textContact = document.createElement('h4');
+
 
     mainContact.appendChild(divContact);
 
@@ -19,8 +19,18 @@ const textContact = document.createElement('h4');
         localStorage.setItem('horario', formulario.children[5].value);
 
         divContact.appendChild(textContact);
-        textContact.innerHTML = `Muchas gracias ${formulario.children[1].value}. Nos contactaremos a través del número ${formulario.children[3].value} en el horario ${formulario.children[5].value}.`;
-    }
+//sweet alert
+        swal({
+                    title: "Formulario enviado",
+                    text: `Muchas gracias ${formulario.children[1].value}. Nos contactaremos a través del número ${formulario.children[3].value} en el horario ${formulario.children[5].value}.`,
+                    icon: "success"
+                }).then(() => {
+                    // Limpia el formulario desp alert
+                    miFormulario.reset();
+                });
+            }
+    
 });
+
 
 

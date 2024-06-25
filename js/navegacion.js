@@ -33,6 +33,7 @@ for ( const link of links){
 }
 cabecera.style.backgroundColor = '#c3c4c2';
 
+
 ////modo oscuro
 document.addEventListener('DOMContentLoaded', function() {
     const buttonToggle = document.getElementById('toggle-button');
