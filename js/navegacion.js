@@ -8,7 +8,7 @@ const links = ["Index", "Prestamo", "Contacto"];
 const liImagen = document.createElement('li');
 const img = document.createElement('img');
 const ORIGEN = document.createElement('a');
-//const footer = document.getElementsByTagName('footer');
+const footer = document.getElementsByTagName('footer');
 const parrafoFooter = document.createElement('p');
 const TIME = new Date().getFullYear();
 

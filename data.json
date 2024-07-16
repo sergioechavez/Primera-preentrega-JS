@@ -1,0 +1,5 @@
+[
+        { "id": 1, "nombre": "tulum", "precio": 505360 , "img": "https://images.unsplash.com/photo-1666051637751-19d52e003355?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "cantidad": 1 },
+        { "id": 2, "nombre": "mar del plata", "precio": 100036 , "img": "https://images.unsplash.com/photo-1561815907-c39c3c1c7f49?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "cantidad": 1 },
+        { "id": 3, "nombre": "rio de janeiro", "precio": 20500 , "img": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "cantidad": 1 }
+]

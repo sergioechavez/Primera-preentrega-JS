@@ -128,6 +128,11 @@ main {
     opacity: 0.7;
 }
 
+.ver-carrito {
+    cursor: pointer;
+    text-align: right;
+}
+
 /* modal content*/
 .modal-container {
     width: 80%;
@@ -185,4 +190,30 @@ main {
     padding: 20px;
     text-align: center;
     padding-top: 20px;
+}
+
+/*delete button*/
+.delete-product {
+    cursor: pointer;
+}
+
+/*carrito contador*/
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 170px;
+    right: 120px;
+    position: absolute;
+    display: none;
+}
+
+.sumar {
+    cursor: pointer;
+}
+
+.restar {
+    cursor: pointer;
 }
